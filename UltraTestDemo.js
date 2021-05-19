@@ -1,5 +1,8 @@
 ///<reference types="cypress"/>
 
+// Check out my walk through of writing and using this file 
+// https://ultra.guide/bin/view/Automation/IntroductionToCypressAndApplitools
+
 function returnHome() {
     //click home button and return to main loading page
     cy.get('.fusion-mobile-logo').click();
