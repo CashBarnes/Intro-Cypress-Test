@@ -167,7 +167,7 @@ describe('Test nav bar on mobile',() => {
         cy.get('#mobile-menu-ultranauts-main-menu-1 > [data-item-id="6305"] > .fusion-bar-highlight > .menu-text').click();
         cy.url().should('include', 'lets-talk');
 
-        returnHome();
+        cy.eyesCheckWindow();
 
     });
 
